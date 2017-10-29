@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'lato', sans-serif;
+    font-weight: 300;
+}
+
+/*     MAIN STYLE NAV     */
+
+nav {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.95);
+    z-index: 100;
+    width: 100%;
+}
+
+nav ul {
+    right: 0px;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 7px;
+    padding-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1ac056;
+    transition: 0.4s;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #291f1a;
+}
+
+/*    MAIN STYLE NAV -- END -- */
+
+header {
+    position: relative;
+    display: block;
+    background-image: url(../img/header-background.jpg);
+    background-size: cover;
+    height: 80vh;
+    background-position: center;
+}
+
+/* FORMATOWANIE TEKSTU W NAGŁOWKU */
+
+header div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    text-align: center;
+    color: white;
+    font-family: roboto;
+
+}
+
+header h1 {
+    font-size: 5em;
+    font-weight: lighter;
+}
+
+span {
+    color: #1ac056;
+    font-weight: 400;
+}
+
+header h2 {
+    font-weight: lighter;
+    font-size: 2.5em;
+
+}
+
+section,
+footer {
+    padding: 3%;
+}
+
+
+/* WYGLĄDA NAGŁOWKOW POSZCZEGOLNYCH SEKCJI*/
+.heads {
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 300;
+}
+/* WYGLĄD NAGŁOWKOW POSZCZEGOLNYCH SEKCJI -- END --*/
+
+/* WYGLĄD CONTENTU */
+
+.content {
+        font-size: 1.2em;
+        line-height: 30px;
+
+}
+
+/*    WYGLĄD SEKCJI O MNIE  */
+#about {
+    background-color: #fbffff;
+    border-bottom: solid 3px;
+    border-color: rgba(128, 128, 128, 0.21);
+    overflow: hidden;
+    
+}
+
+#about div {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    float: left;    
+}
+
+#image {
+    width: 50%;
+    border: solid white 10px;
+}
+
+div > p {
+    text-align: left;
+}
+/* WYGLĄD SEKCJI O MNIE -- END -- */
+
+/* WYGLĄD SEKCJI MOJE UMIEJĘTNOŚĆI */
+#skills {
+    text-align: center;
+}
+
+#skills img {
+    margin-left: 5%;
+}
+/* WYGLĄD SEKCJI MOJE UMIEJĘTNOŚCI -- END -- */
+
+/* WYGLĄD SEKCJI MOJE PORTFOLIO */
+
+#portfolio {
+    overflow:hidden;
+}
+
+.examp {
+    display: inline-block;
+    float: left;
+    width: 33%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#img1 {
+    background-image: url(../img/portfolio1.jpg);
+    
+}
+
+#img2 {
+    background-image: url(../img/portfolio2.jpg);
+    
+}
+
+#img3 {
+    background-image: url(../img/portfolio3.jpg);
+    
+}
+
+.con-height {
+    display: block;
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.examp:hover {
+    
+}
+
